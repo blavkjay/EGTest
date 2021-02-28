@@ -1,4 +1,4 @@
-## Cowrywise iOS Developer test
+## ETrazact Global iOS Developer test
 
 #### STEP TO RUN PROJECT
 * [Run Pod install]
