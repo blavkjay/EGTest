@@ -13,6 +13,8 @@
 		4C22737125EC3A7D002F32F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C22736F25EC3A7D002F32F1 /* Main.storyboard */; };
 		4C22737325EC3A81002F32F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C22737225EC3A81002F32F1 /* Assets.xcassets */; };
 		4C22737625EC3A81002F32F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C22737425EC3A81002F32F1 /* LaunchScreen.storyboard */; };
+		4C22738125EC3AE9002F32F1 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C22738025EC3AE9002F32F1 /* Color.xcassets */; };
+		4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22738625EC3B24002F32F1 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C22737225EC3A81002F32F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C22737525EC3A81002F32F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C22737725EC3A81002F32F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C22738025EC3AE9002F32F1 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		4C22738625EC3B24002F32F1 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,57 @@
 		4C22736825EC3A7D002F32F1 /* EGTest */ = {
 			isa = PBXGroup;
 			children = (
-				4C22736925EC3A7D002F32F1 /* AppDelegate.swift */,
-				4C22736B25EC3A7D002F32F1 /* SceneDelegate.swift */,
+				4C22738525EC3B14002F32F1 /* Helper */,
+				4C22737F25EC3AC8002F32F1 /* Assets */,
+				4C22737E25EC3AA7002F32F1 /* App */,
 				4C22736D25EC3A7D002F32F1 /* ViewController.swift */,
 				4C22736F25EC3A7D002F32F1 /* Main.storyboard */,
-				4C22737225EC3A81002F32F1 /* Assets.xcassets */,
-				4C22737425EC3A81002F32F1 /* LaunchScreen.storyboard */,
 				4C22737725EC3A81002F32F1 /* Info.plist */,
 			);
 			path = EGTest;
+			sourceTree = "<group>";
+		};
+		4C22737E25EC3AA7002F32F1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4C22737425EC3A81002F32F1 /* LaunchScreen.storyboard */,
+				4C22736B25EC3A7D002F32F1 /* SceneDelegate.swift */,
+				4C22736925EC3A7D002F32F1 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4C22737F25EC3AC8002F32F1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C22738325EC3AF9002F32F1 /* Fonts */,
+				4C22737225EC3A81002F32F1 /* Assets.xcassets */,
+				4C22738025EC3AE9002F32F1 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4C22738325EC3AF9002F32F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4C22738425EC3B06002F32F1 /* Montserrat_Alternates */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4C22738425EC3B06002F32F1 /* Montserrat_Alternates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Montserrat_Alternates;
+			sourceTree = "<group>";
+		};
+		4C22738525EC3B14002F32F1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4C22738625EC3B24002F32F1 /* CustomColor.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C22737625EC3A81002F32F1 /* LaunchScreen.storyboard in Resources */,
+				4C22738125EC3AE9002F32F1 /* Color.xcassets in Resources */,
 				4C22737325EC3A81002F32F1 /* Assets.xcassets in Resources */,
 				4C22737125EC3A7D002F32F1 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +186,7 @@
 			files = (
 				4C22736E25EC3A7D002F32F1 /* ViewController.swift in Sources */,
 				4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */,
+				4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */,
 				4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
