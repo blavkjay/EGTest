@@ -17,6 +17,7 @@
 		4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22738625EC3B24002F32F1 /* CustomColor.swift */; };
 		4C22738B25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22738A25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift */; };
 		4C22738F25EC3C72002F32F1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22738E25EC3C72002F32F1 /* UIViewController+Extension.swift */; };
+		4C22739225EC3CB2002F32F1 /* CustomHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22739125EC3CB2002F32F1 /* CustomHttpError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4C22738625EC3B24002F32F1 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		4C22738A25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
 		4C22738E25EC3C72002F32F1 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4C22739125EC3CB2002F32F1 /* CustomHttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHttpError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				4C22738925EC3C3B002F32F1 /* Extensions */,
 				4C22738625EC3B24002F32F1 /* CustomColor.swift */,
+				4C22739125EC3CB2002F32F1 /* CustomHttpError.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				4C22736E25EC3A7D002F32F1 /* ViewController.swift in Sources */,
 				4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */,
 				4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */,
+				4C22739225EC3CB2002F32F1 /* CustomHttpError.swift in Sources */,
 				4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */,
 				4C22738B25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift in Sources */,
 			);
