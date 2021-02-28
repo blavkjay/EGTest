@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030D2E552B015C8D01E00BC0 /* Pods_EGTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDDC28C6C4ED3DE477D47B9 /* Pods_EGTest.framework */; };
 		4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22736925EC3A7D002F32F1 /* AppDelegate.swift */; };
 		4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22736B25EC3A7D002F32F1 /* SceneDelegate.swift */; };
 		4C22736E25EC3A7D002F32F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22736D25EC3A7D002F32F1 /* ViewController.swift */; };
-		4C22737125EC3A7D002F32F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C22736F25EC3A7D002F32F1 /* Main.storyboard */; };
 		4C22737325EC3A81002F32F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C22737225EC3A81002F32F1 /* Assets.xcassets */; };
 		4C22737625EC3A81002F32F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C22737425EC3A81002F32F1 /* LaunchScreen.storyboard */; };
 		4C22738125EC3AE9002F32F1 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C22738025EC3AE9002F32F1 /* Color.xcassets */; };
@@ -25,14 +25,18 @@
 		4C22739D25EC3D19002F32F1 /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22739825EC3D19002F32F1 /* MontserratAlternates-Bold.ttf */; };
 		4C2273A125EC3D94002F32F1 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273A025EC3D94002F32F1 /* CustomFont.swift */; };
 		4C2273A525EC3DC0002F32F1 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273A425EC3DC0002F32F1 /* DateHelper.swift */; };
+		4C2273B325EC4464002F32F1 /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B225EC4464002F32F1 /* ConverterService.swift */; };
+		4C2273B625EC4494002F32F1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B525EC4494002F32F1 /* NetworkManager.swift */; };
+		4C2273B925EC44B0002F32F1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B825EC44B0002F32F1 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16575E37EED579221EFD1FD2 /* Pods-EGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGTest.release.xcconfig"; path = "Target Support Files/Pods-EGTest/Pods-EGTest.release.xcconfig"; sourceTree = "<group>"; };
+		2EDDC28C6C4ED3DE477D47B9 /* Pods_EGTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C22736625EC3A7D002F32F1 /* EGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C22736925EC3A7D002F32F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C22736B25EC3A7D002F32F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4C22736D25EC3A7D002F32F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C22737025EC3A7D002F32F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C22737225EC3A81002F32F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C22737525EC3A81002F32F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C22737725EC3A81002F32F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 		4C22739825EC3D19002F32F1 /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
 		4C2273A025EC3D94002F32F1 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		4C2273A425EC3DC0002F32F1 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		4C2273B225EC4464002F32F1 /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
+		4C2273B525EC4494002F32F1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4C2273B825EC44B0002F32F1 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		4C249F0F45D29FF5914C05E7 /* Pods-EGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGTest.debug.xcconfig"; path = "Target Support Files/Pods-EGTest/Pods-EGTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030D2E552B015C8D01E00BC0 /* Pods_EGTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,8 @@
 			children = (
 				4C22736825EC3A7D002F32F1 /* EGTest */,
 				4C22736725EC3A7D002F32F1 /* Products */,
+				CE316F5D3E6FCF47AFC4B656 /* Pods */,
+				D7353303E0EAB55A7C57F789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,11 +91,11 @@
 		4C22736825EC3A7D002F32F1 /* EGTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C2273A825EC3DFA002F32F1 /* Main */,
 				4C22738525EC3B14002F32F1 /* Helper */,
 				4C22737F25EC3AC8002F32F1 /* Assets */,
 				4C22737E25EC3AA7002F32F1 /* App */,
 				4C22736D25EC3A7D002F32F1 /* ViewController.swift */,
-				4C22736F25EC3A7D002F32F1 /* Main.storyboard */,
 				4C22737725EC3A81002F32F1 /* Info.plist */,
 			);
 			path = EGTest;
@@ -151,6 +162,41 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4C2273A825EC3DFA002F32F1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273A925EC3E05002F32F1 /* Networking */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C2273A925EC3E05002F32F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273B225EC4464002F32F1 /* ConverterService.swift */,
+				4C2273B525EC4494002F32F1 /* NetworkManager.swift */,
+				4C2273B825EC44B0002F32F1 /* Config.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CE316F5D3E6FCF47AFC4B656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C249F0F45D29FF5914C05E7 /* Pods-EGTest.debug.xcconfig */,
+				16575E37EED579221EFD1FD2 /* Pods-EGTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7353303E0EAB55A7C57F789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EDDC28C6C4ED3DE477D47B9 /* Pods_EGTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C22737A25EC3A81002F32F1 /* Build configuration list for PBXNativeTarget "EGTest" */;
 			buildPhases = (
+				FA951A0B7378A2D1B355F006 /* [CP] Check Pods Manifest.lock */,
 				4C22736225EC3A7D002F32F1 /* Sources */,
 				4C22736325EC3A7D002F32F1 /* Frameworks */,
 				4C22736425EC3A7D002F32F1 /* Resources */,
+				9D8F8163DAF2A44DA03056A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,11 +264,52 @@
 				4C22738125EC3AE9002F32F1 /* Color.xcassets in Resources */,
 				4C22739A25EC3D19002F32F1 /* MontserratAlternates-SemiBold.ttf in Resources */,
 				4C22737325EC3A81002F32F1 /* Assets.xcassets in Resources */,
-				4C22737125EC3A7D002F32F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D8F8163DAF2A44DA03056A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EGTest/Pods-EGTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EGTest/Pods-EGTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EGTest/Pods-EGTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA951A0B7378A2D1B355F006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EGTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C22736225EC3A7D002F32F1 /* Sources */ = {
@@ -231,10 +320,13 @@
 				4C22736E25EC3A7D002F32F1 /* ViewController.swift in Sources */,
 				4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */,
 				4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */,
+				4C2273B625EC4494002F32F1 /* NetworkManager.swift in Sources */,
+				4C2273B925EC44B0002F32F1 /* Config.swift in Sources */,
 				4C22739225EC3CB2002F32F1 /* CustomHttpError.swift in Sources */,
 				4C2273A125EC3D94002F32F1 /* CustomFont.swift in Sources */,
 				4C2273A525EC3DC0002F32F1 /* DateHelper.swift in Sources */,
 				4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */,
+				4C2273B325EC4464002F32F1 /* ConverterService.swift in Sources */,
 				4C22738B25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +334,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C22736F25EC3A7D002F32F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C22737025EC3A7D002F32F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C22737425EC3A81002F32F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -379,6 +463,7 @@
 		};
 		4C22737B25EC3A81002F32F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C249F0F45D29FF5914C05E7 /* Pods-EGTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,6 +483,7 @@
 		};
 		4C22737C25EC3A81002F32F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16575E37EED579221EFD1FD2 /* Pods-EGTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
