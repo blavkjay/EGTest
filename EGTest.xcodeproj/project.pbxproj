@@ -23,6 +23,7 @@
 		4C22739B25EC3D19002F32F1 /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22739625EC3D19002F32F1 /* MontserratAlternates-Regular.ttf */; };
 		4C22739C25EC3D19002F32F1 /* MontserratAlternates-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22739725EC3D19002F32F1 /* MontserratAlternates-Medium.ttf */; };
 		4C22739D25EC3D19002F32F1 /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C22739825EC3D19002F32F1 /* MontserratAlternates-Bold.ttf */; };
+		4C2273A125EC3D94002F32F1 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273A025EC3D94002F32F1 /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		4C22739625EC3D19002F32F1 /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
 		4C22739725EC3D19002F32F1 /* MontserratAlternates-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.ttf"; sourceTree = "<group>"; };
 		4C22739825EC3D19002F32F1 /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
+		4C2273A025EC3D94002F32F1 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				4C22738925EC3C3B002F32F1 /* Extensions */,
 				4C22738625EC3B24002F32F1 /* CustomColor.swift */,
 				4C22739125EC3CB2002F32F1 /* CustomHttpError.swift */,
+				4C2273A025EC3D94002F32F1 /* CustomFont.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */,
 				4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */,
 				4C22739225EC3CB2002F32F1 /* CustomHttpError.swift in Sources */,
+				4C2273A125EC3D94002F32F1 /* CustomFont.swift in Sources */,
 				4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */,
 				4C22738B25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift in Sources */,
 			);
