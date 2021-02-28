@@ -28,6 +28,24 @@
 		4C2273B325EC4464002F32F1 /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B225EC4464002F32F1 /* ConverterService.swift */; };
 		4C2273B625EC4494002F32F1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B525EC4494002F32F1 /* NetworkManager.swift */; };
 		4C2273B925EC44B0002F32F1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273B825EC44B0002F32F1 /* Config.swift */; };
+		4C2273BD25EC44E6002F32F1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273BC25EC44E6002F32F1 /* Model.swift */; };
+		4C2273C225EC4535002F32F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273C125EC4535002F32F1 /* HomeViewController.swift */; };
+		4C2273C625EC457C002F32F1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273C525EC457C002F32F1 /* HomeViewModel.swift */; };
+		4C2273CB25EC459C002F32F1 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273CA25EC459C002F32F1 /* GraphView.swift */; };
+		4C2273CE25EC45B9002F32F1 /* CountrySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273CD25EC45B9002F32F1 /* CountrySelectorView.swift */; };
+		4C2273D125EC45DD002F32F1 /* PickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273D025EC45DD002F32F1 /* PickerSelectionView.swift */; };
+		4C2273D425EC45F8002F32F1 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273D325EC45F8002F32F1 /* CustomTabView.swift */; };
+		4C2273D725EC460C002F32F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273D625EC460C002F32F1 /* HomeView.swift */; };
+		4C2273DB25EC4630002F32F1 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273DA25EC4630002F32F1 /* CustomTextfield.swift */; };
+		4C2273DF25EC464A002F32F1 /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273DE25EC464A002F32F1 /* CustomTabItemView.swift */; };
+		4C2273E225EC4662002F32F1 /* LineMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2273E125EC4662002F32F1 /* LineMarkerView.swift */; };
+		4C2273EB25EC4A6C002F32F1 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273E525EC4A6A002F32F1 /* screenshot1.png */; };
+		4C2273EC25EC4A6C002F32F1 /* screenshot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273E625EC4A6B002F32F1 /* screenshot4.png */; };
+		4C2273ED25EC4A6C002F32F1 /* screenshot6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273E725EC4A6B002F32F1 /* screenshot6.png */; };
+		4C2273EE25EC4A6C002F32F1 /* screenshot5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273E825EC4A6C002F32F1 /* screenshot5.png */; };
+		4C2273EF25EC4A6C002F32F1 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273E925EC4A6C002F32F1 /* screenshot2.png */; };
+		4C2273F025EC4A6C002F32F1 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273EA25EC4A6C002F32F1 /* screenshot3.png */; };
+		4C2273F325EC4A7F002F32F1 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C2273F225EC4A7F002F32F1 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +73,24 @@
 		4C2273B225EC4464002F32F1 /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
 		4C2273B525EC4494002F32F1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4C2273B825EC44B0002F32F1 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		4C2273BC25EC44E6002F32F1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4C2273C125EC4535002F32F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C2273C525EC457C002F32F1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4C2273CA25EC459C002F32F1 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		4C2273CD25EC45B9002F32F1 /* CountrySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectorView.swift; sourceTree = "<group>"; };
+		4C2273D025EC45DD002F32F1 /* PickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSelectionView.swift; sourceTree = "<group>"; };
+		4C2273D325EC45F8002F32F1 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		4C2273D625EC460C002F32F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4C2273DA25EC4630002F32F1 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		4C2273DE25EC464A002F32F1 /* CustomTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemView.swift; sourceTree = "<group>"; };
+		4C2273E125EC4662002F32F1 /* LineMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMarkerView.swift; sourceTree = "<group>"; };
+		4C2273E525EC4A6A002F32F1 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		4C2273E625EC4A6B002F32F1 /* screenshot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot4.png; sourceTree = "<group>"; };
+		4C2273E725EC4A6B002F32F1 /* screenshot6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot6.png; sourceTree = "<group>"; };
+		4C2273E825EC4A6C002F32F1 /* screenshot5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot5.png; sourceTree = "<group>"; };
+		4C2273E925EC4A6C002F32F1 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		4C2273EA25EC4A6C002F32F1 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		4C2273F225EC4A7F002F32F1 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		4C249F0F45D29FF5914C05E7 /* Pods-EGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGTest.debug.xcconfig"; path = "Target Support Files/Pods-EGTest/Pods-EGTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +109,13 @@
 		4C22735D25EC3A7D002F32F1 = {
 			isa = PBXGroup;
 			children = (
+				4C2273F225EC4A7F002F32F1 /* Readme.md */,
+				4C2273E525EC4A6A002F32F1 /* screenshot1.png */,
+				4C2273E925EC4A6C002F32F1 /* screenshot2.png */,
+				4C2273EA25EC4A6C002F32F1 /* screenshot3.png */,
+				4C2273E625EC4A6B002F32F1 /* screenshot4.png */,
+				4C2273E825EC4A6C002F32F1 /* screenshot5.png */,
+				4C2273E725EC4A6B002F32F1 /* screenshot6.png */,
 				4C22736825EC3A7D002F32F1 /* EGTest */,
 				4C22736725EC3A7D002F32F1 /* Products */,
 				CE316F5D3E6FCF47AFC4B656 /* Pods */,
@@ -165,6 +208,10 @@
 		4C2273A825EC3DFA002F32F1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4C2273C925EC458C002F32F1 /* Views */,
+				4C2273C425EC454C002F32F1 /* ViewModel */,
+				4C2273BF25EC4513002F32F1 /* ViewController */,
+				4C2273BB25EC44DB002F32F1 /* Model */,
 				4C2273A925EC3E05002F32F1 /* Networking */,
 			);
 			path = Main;
@@ -178,6 +225,53 @@
 				4C2273B825EC44B0002F32F1 /* Config.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		4C2273BB25EC44DB002F32F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273BC25EC44E6002F32F1 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C2273BF25EC4513002F32F1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273C125EC4535002F32F1 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4C2273C425EC454C002F32F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273C525EC457C002F32F1 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C2273C925EC458C002F32F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273D925EC461B002F32F1 /* Custom */,
+				4C2273CA25EC459C002F32F1 /* GraphView.swift */,
+				4C2273CD25EC45B9002F32F1 /* CountrySelectorView.swift */,
+				4C2273D025EC45DD002F32F1 /* PickerSelectionView.swift */,
+				4C2273D325EC45F8002F32F1 /* CustomTabView.swift */,
+				4C2273D625EC460C002F32F1 /* HomeView.swift */,
+				4C2273E125EC4662002F32F1 /* LineMarkerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C2273D925EC461B002F32F1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4C2273DA25EC4630002F32F1 /* CustomTextfield.swift */,
+				4C2273DE25EC464A002F32F1 /* CustomTabItemView.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		CE316F5D3E6FCF47AFC4B656 /* Pods */ = {
@@ -259,9 +353,16 @@
 				4C22739925EC3D19002F32F1 /* OFL.txt in Resources */,
 				4C22739D25EC3D19002F32F1 /* MontserratAlternates-Bold.ttf in Resources */,
 				4C22739B25EC3D19002F32F1 /* MontserratAlternates-Regular.ttf in Resources */,
+				4C2273EF25EC4A6C002F32F1 /* screenshot2.png in Resources */,
+				4C2273EB25EC4A6C002F32F1 /* screenshot1.png in Resources */,
+				4C2273F325EC4A7F002F32F1 /* Readme.md in Resources */,
 				4C22737625EC3A81002F32F1 /* LaunchScreen.storyboard in Resources */,
 				4C22739C25EC3D19002F32F1 /* MontserratAlternates-Medium.ttf in Resources */,
+				4C2273F025EC4A6C002F32F1 /* screenshot3.png in Resources */,
+				4C2273EC25EC4A6C002F32F1 /* screenshot4.png in Resources */,
 				4C22738125EC3AE9002F32F1 /* Color.xcassets in Resources */,
+				4C2273ED25EC4A6C002F32F1 /* screenshot6.png in Resources */,
+				4C2273EE25EC4A6C002F32F1 /* screenshot5.png in Resources */,
 				4C22739A25EC3D19002F32F1 /* MontserratAlternates-SemiBold.ttf in Resources */,
 				4C22737325EC3A81002F32F1 /* Assets.xcassets in Resources */,
 			);
@@ -318,15 +419,26 @@
 			files = (
 				4C22738F25EC3C72002F32F1 /* UIViewController+Extension.swift in Sources */,
 				4C22736E25EC3A7D002F32F1 /* ViewController.swift in Sources */,
+				4C2273DF25EC464A002F32F1 /* CustomTabItemView.swift in Sources */,
 				4C22736A25EC3A7D002F32F1 /* AppDelegate.swift in Sources */,
 				4C22738725EC3B24002F32F1 /* CustomColor.swift in Sources */,
+				4C2273D425EC45F8002F32F1 /* CustomTabView.swift in Sources */,
 				4C2273B625EC4494002F32F1 /* NetworkManager.swift in Sources */,
+				4C2273C225EC4535002F32F1 /* HomeViewController.swift in Sources */,
+				4C2273E225EC4662002F32F1 /* LineMarkerView.swift in Sources */,
+				4C2273CE25EC45B9002F32F1 /* CountrySelectorView.swift in Sources */,
+				4C2273D125EC45DD002F32F1 /* PickerSelectionView.swift in Sources */,
 				4C2273B925EC44B0002F32F1 /* Config.swift in Sources */,
+				4C2273CB25EC459C002F32F1 /* GraphView.swift in Sources */,
+				4C2273BD25EC44E6002F32F1 /* Model.swift in Sources */,
 				4C22739225EC3CB2002F32F1 /* CustomHttpError.swift in Sources */,
+				4C2273D725EC460C002F32F1 /* HomeView.swift in Sources */,
+				4C2273DB25EC4630002F32F1 /* CustomTextfield.swift in Sources */,
 				4C2273A125EC3D94002F32F1 /* CustomFont.swift in Sources */,
 				4C2273A525EC3DC0002F32F1 /* DateHelper.swift in Sources */,
 				4C22736C25EC3A7D002F32F1 /* SceneDelegate.swift in Sources */,
 				4C2273B325EC4464002F32F1 /* ConverterService.swift in Sources */,
+				4C2273C625EC457C002F32F1 /* HomeViewModel.swift in Sources */,
 				4C22738B25EC3C54002F32F1 /* NSMutableAttributedString+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
